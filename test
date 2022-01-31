@@ -1,0 +1,5 @@
+<div>
+    <label for="level">הקלד כאן את הרמה בה אתה רוצה לשחק</label>
+    <input type="text" class="setLevel" placeholder="הקלד מספר בין 2-6">
+    <button id="playAgain" class="btnP" onclick="setLevel()">הגדר</button>
+</div>

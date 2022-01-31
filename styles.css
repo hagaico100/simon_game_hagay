@@ -1,23 +1,36 @@
-body {
+.bodyGame {
   text-align: center;
   background-color: #011F3F;
 }
 
-#level-title {
+#level-title  {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
   color: #FEF2BF;
 }
+#topLevel{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: #011F3F; 
+}
 
-.container {
+.containerA {
   display: block;
   width: 50%;
   margin: auto;
 
 }
+.nav{
+  display: block;
+  width: 10%;
+  margin: auto;
+}
+.dropdown-item{
+  text-align-last:center;
+}
 
-.btn {
+.btnG {
   margin: 25px;
   display: inline-block;
   height: 200px;
@@ -30,7 +43,7 @@ body {
   background-color:blueviolet;
   margin: 25px;
   display: hidden;
-  height: 30px;
+  height: 60px;
   width: 150px;
   border: 5px solid black;
   border-radius: 20%;
